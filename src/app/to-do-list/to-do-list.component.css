@@ -1,0 +1,43 @@
+
+
+.to-do {
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 15px;
+  }
+  
+ .to-do .details {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px 10px;
+    cursor: move;
+    transition: transform 0.2s ease;
+  }
+  
+  .to-do .details.dragging {
+    opacity: 0.5;
+  }
+
+  .status {
+    /* border: 1px solid #ccc; */
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 500
+  }
+
+  .badge-warning {
+    color: #ff3709;
+    background-color: #fee6e0;
+  }
+
+  .badge-success {
+    color: #1aae6f;
+    background-color: #b0eed3;
+  }
+  
+  .badge-info {
+    color: #03acca;
+    background-color: #aaedf9;
+  }

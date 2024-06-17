@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: "Poppins", sans-serif !important;
+    font-optical-sizing: auto;
+    background-color: #f8f9fa !important;
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  }

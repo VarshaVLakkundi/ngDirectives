@@ -1,0 +1,40 @@
+{
+    "tasks": [
+      {
+        "id": 1,
+        "details": "Task 1",
+        "title": "Develop login functionality",
+        "description": "Create user model, implement authentication logic",
+        "status": "In Progress",
+        "type": "User Story",
+        "assigned_to": "John Doe"
+      },
+      {
+        "id": 2,
+        "details": "Task 2",
+        "title": "Fix navigation bar bug",
+        "description": "Dropdown menu overlaps content on smaller screens",
+        "status": "To Do",
+        "type": "Bug",
+        "assigned_to": "Jane Smith"
+      },
+      {
+        "id": 3,
+        "details": "Task 3",
+        "title": "Write unit tests for login functionality",
+        "description": "Ensure user authentication works as expected",
+        "status": "Done",
+        "type": "Task",
+        "assigned_to": "John Doe"
+      },
+      {
+        "id": 4,
+        "details": "Task 4",
+        "title": "Design user interface for product page",
+        "description": "Mockups and wireframes for product display and filtering",
+        "status": "To Do",
+        "type": "Task",
+        "assigned_to": "Design Team"
+      }
+    ]
+  }
