@@ -15,10 +15,41 @@ The Task List App is a simple Angular application designed to demonstrate the us
 * **Highlight on Hover**: Change the background color of a task when the mouse hovers over it.
 * **Drag and Drop**: Reorder tasks by dragging and dropping them to new positions.
 
+## Directives
+
+**Tooltip Directive**
+
+Displays a tooltip with the specified text when hovering over the element.
+
+**Usage**
+```
+<div appTooltip="Tooltip text">Hover over me</div>
+```
+
+**Hover Highlight Directive**
+
+Changes the background color of the element when hovered.
+
+**Usage**
+```
+<div appHoverHighlight hoverColor="lightblue">Hover over me</div>
+```
+
+**Draggable Directive**
+
+Enables dragging of the element and emits the final position on drag end.
+
+**Usage**
+```
+<div appDraggable (dragEnd)="onDragEnd($event)">Drag me</div>
+```
+
+
 ## Development server
   ```
   $ cd todo-list-app
   $ npm install
   $ ng serve
- 
+```
+
 
